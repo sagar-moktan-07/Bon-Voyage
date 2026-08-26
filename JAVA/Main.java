@@ -39,12 +39,17 @@
 //     }
 // }
 
-class Main{
+// class Main{
+//     public static void main(String[] args){
+//         int a = 33;
+//         byte by = 22;
+//         by = (byte)a;
+//         System.out.print(by);
+//     }
+// }
+
+public class Main{
     public static void main(String[] args){
-        int a = 33;
-        byte by = 22;
-        by = (byte)a;
-        System.out.print(by);
+        System.out.println("Hello sagar moktan whats up, this is from arch ");
     }
 }
-
