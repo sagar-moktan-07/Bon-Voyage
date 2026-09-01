@@ -141,9 +141,41 @@ import java.util.Scanner;
 
 // Ternary operators in java 
 
+// public class Main{
+//     public static void main(String[] args){
+//         Scanner scanner = new Scanner(System.in);
+//         System.out.println("Enter your age:: ");
+//         int age = scanner.nextInt();
+//         String status = (age > 11)? "Adult" : "Minor";
+//         if (status.equals("Adult")){
+//             System.out.println("You are an "+ status);
+//         }
+//         else {
+//             System.out.println("You are a "+ status);
+//         }
+//     }
+// }
+
+
+// loops in java:: for, while , do-while, enhanced for loops 
+
 public class Main{
     public static void main(String[] args){
-        int age = 20;
-        String status = (age > 15)? "Adult" : "Minor";
+        int a = 5;
+        for(a = 1; a <= 5; a++){
+            System.out.println("No.:: "+ a);
+        }
+        a = 5;
+
+        while(a >= 1){
+            System.out.println("No.:: "+ a);
+            a--;
+        }
+        a = 5;
+
+        do{
+            System.out.println("No.:: "+ a);
+            a--;
+                    }
     }
 }
