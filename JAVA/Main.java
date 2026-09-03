@@ -161,21 +161,31 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args){
-        int a = 5;
-        for(a = 1; a <= 5; a++){
-            System.out.println("No.:: "+ a);
-        }
-        a = 5;
+        // int a = 5;
+        // for(a = 1; a <= 5; a++){
+        //     System.out.println("No.:: "+ a);
+        // }
+        // a = 5;
 
-        while(a >= 1){
-            System.out.println("No.:: "+ a);
-            a--;
-        }
-        a = 5;
+        // while(a >= 1){
+        //     System.out.println("No.:: "+ a);
+        //     a--;
+        // }
+        // a = 5;
 
-        do{
-            System.out.println("No.:: "+ a);
-            a--;
-                    }
+        // do
+        // {
+        //     System.out.println("No.:: "+ a);
+        //     a--;
+        //             }while(a >= 1);
+
+        int i = 0;
+        int j = 5;
+        for(i=0; i<5; i++){
+            System.out.println(i);
+            for(j=5; j>0; j--){
+                System.out.println(j);
+            }
+        }
     }
 }
