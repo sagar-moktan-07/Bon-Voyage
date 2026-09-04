@@ -18,6 +18,7 @@ import java.util.Scanner;
 // }
 
 // data types 
+
 // primitive = inbuilt variables provided by java, its typese are:
 // - integer subtypes--> byte, short, int, long
 // -float --> double, float
@@ -65,6 +66,8 @@ import java.util.Scanner;
 //         }
 //     }
 // }
+
+// User input in java using scanners util. 
 
 //  public class Main{
 //     public static void main(String[] args){
