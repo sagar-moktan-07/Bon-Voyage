@@ -62,3 +62,7 @@ public class classobj{
     }
 }
 
+// for method overloading 
+
+// just make methods of same name in any class you want, just change the 
+// parameters as you like then thats method overloading...
