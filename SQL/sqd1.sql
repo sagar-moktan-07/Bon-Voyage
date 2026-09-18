@@ -1,5 +1,5 @@
 -- CREATE DATABASE moktan;
-USE moktan;
+-- USE moktan;
 -- CREATE TABLE family (
 -- 	mem_id INT PRIMARY KEY,
 -- 	f_name VARCHAR(50),
@@ -11,3 +11,5 @@ USE moktan;
 -- ALTER TABLE family ADD age INT;
 
 -- SELECT * FROM family;
+
+SELECT current_user, current_database(), version();
